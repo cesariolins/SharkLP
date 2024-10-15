@@ -1,0 +1,96 @@
+@media (max-width:1080px){
+    .anatomy {
+        .containerAnatomy {
+            .ana2 {
+                display: none;
+            }
+
+            p {
+                width: 60%;
+            }
+        }
+
+        h2 {
+            margin-top: 100px;
+        }
+    }
+
+    .conservation {
+        h2 {
+            margin-top: 100px;
+        }
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 822px) {
+    .anatomy {
+        h2 {
+            margin-top: 200px;
+        }
+    }
+
+    .sharkPhotos {
+        img {
+            margin-top: 100px;
+        }
+    }
+
+    footer {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+    
+    .species {
+        
+        .containerSpecies2 {
+            flex-direction: column;
+
+            .verticalPic {
+                width: 100%;
+                
+                img {
+                    width: 80%;
+                    height: 50vh;
+                    margin-bottom: 50px;
+                }
+            }
+
+            .containerTextBtn {
+                width: 100%;
+                
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .anatomy {
+        h2 {
+            margin-top: 350px;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        margin-top: 300px;
+
+        span {
+            margin-bottom: 20px;
+        }
+        
+        a {
+            margin-bottom: 20px;
+        }
+    }
+
+    .containerCool {
+        flex-direction: column;
+    }
+}

@@ -255,7 +255,7 @@ footer a:hover {
   }
   footer {
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 800px;
   }
   footer span {
     margin-bottom: 20px;
@@ -263,6 +263,8 @@ footer a:hover {
   footer a {
     margin-bottom: 20px;
   }
+}
+@media (max-width: 654px) {
   .containerCool {
     flex-direction: column;
   }
